@@ -1,9 +1,15 @@
 --YOU NEED THIS FILE IN YOUR PROJECT TO LET THIS WORK
 
---wait function
+--wait/sleep function
 function wait(TimeInSeconds)
-    os.execute("sleep " .. tonumber(TimeInSeconds))
+    local StartTime = os.time()
+    repeat until os.time() > StartTime + TimeInSeconds
 end
+function sleep(TimeInSeconds)
+    local StartTime = os.time()
+    repeat until os.time() > StartTime + TimeInSeconds
+end
+
 
 --input function
 
