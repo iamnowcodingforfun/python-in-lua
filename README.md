@@ -11,4 +11,8 @@ this is a lua extension that adds some python features.
 **HOW TO USE**
 1. download the "extension.lua"
 2. put it in the same folder as ur lua project
-3. your done have fun
+3. your done, have fun
+
+PLEASE NOTE THIS IS WORK IN PROGRESS
+REPORT BUGS
+REQUEST NEW FEATURES
